@@ -496,25 +496,34 @@ a:hover {
 .info1 {
     width: 100%;
     /* background-color: #666666; */
-    height: 360px;
+    /* height: 380px; */
 }
-
-.infoContent1 {
+ /* .infoContent1 {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
     flex: 1;
     flex-direction: row;
-}
+}  */
 
 .infoContent1>* {
-    width: 350px;
-    height: 220px;
-    text-align: left;
-    padding-top: 90px;
+    width: 330px;
+    /* height: 220px; */
+    /* text-align: left; */
+    padding-top: 40px;
     color: #bbb;
-    padding-left: 70px;
-    margin-bottom: 10px;
+    padding-left: 45px;
+    /* margin-bottom: 10px; */
+}
+
+.infoConten>*{
+    width: 280px;
+    /* height: 220px; */
+    /* text-align: left; */
+    padding-top: 40px;
+    color: #bbb;
+    padding-left: 50px;
+    /* margin-bottom: 10px; */
 }
 
 
@@ -539,6 +548,10 @@ a:hover {
 }
 
 .infoContent>div>* {
+    margin-bottom: 15px;
+}
+
+.infoContent1>div>* {
     margin-bottom: 15px;
 }
 
@@ -840,6 +853,12 @@ p.upcom1 {
 
     }
 
+    .infoContent1 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
     .upcomingProjectDetails {
         display: grid;
         grid-template-columns: repeat(1, minmax(auto, 1fr));
@@ -855,3 +874,9 @@ p.upcom1 {
         grid-row-gap: 20px;
     }
 }
+
+
+
+
+
+
